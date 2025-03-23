@@ -32,11 +32,6 @@ public class ProductController {
         return product;
     }
 
-//    @GetMapping
-//    public String sample(){
-//        return "null";
-//    }
-
     @GetMapping("/csrf")
     public CsrfToken getCsrfToken(HttpServletRequest request){
         return (CsrfToken) request.getAttribute("_csrf");
