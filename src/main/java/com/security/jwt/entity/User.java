@@ -8,7 +8,9 @@ public class User {
 
     @Id
     private Integer id;
+    @Column(name = "User_Name")
     private String userName;
+    @Column(name = "PassWord")
     private String password;
 
     public User(Integer id, String userName, String password) {
