@@ -1,6 +1,5 @@
 package com.security.jwt;
 
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,7 +8,6 @@ public class SpringSecurityJwtExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringSecurityJwtExampleApplication.class, args);
-		System.out.println("..");
 	}
 
 }
